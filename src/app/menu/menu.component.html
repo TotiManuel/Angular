@@ -11,10 +11,10 @@
     <ul>
       <li><img src="../../favicon.ico"></li>
       <li><a href="../../index.html">{{Pagina.Inicio}}</a></li>
-      <li><a href="../../index.html">{{Pagina.Proyectos}}</a></li>
-      <li><a href="../../index.html">{{Pagina.Blog}}</a></li>
-      <li><a href="../../index.html">{{Pagina.Contacto}}</a></li>
-      <li><a href="../../index.html">{{Pagina.Nombre}}</a></li>
+      <li><a (click)="navigateToProyectos()">{{Pagina.Proyectos}}</a></li>
+      <li><a (click)="navigateToBlog()">{{Pagina.Blog}}</a></li>
+      <li><a (click)="navigateToContacto()">{{Pagina.Contacto}}</a></li>
+      <li>{{Pagina.Nombre}}</li>
     </ul>
   </nav>
 

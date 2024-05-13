@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-menu',
@@ -15,4 +16,19 @@ export class MenuComponent {
     Contacto: "Contacto",
     Blog: "Blog"
   };
+  constructor(private router: Router) {}
+
+  navigateToProyectos() {
+    this.router.navigate(['/Proyectos']);
+  }
+  navigateToBlog() {
+    this.router.navigate(['/Blog']);
+  }
+  navigateToContacto() {
+    this.router.navigate(['/Contacto']);
+  }
 }
+
+
+
+

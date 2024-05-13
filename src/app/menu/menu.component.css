@@ -32,3 +32,6 @@ nav ul li a {
 nav ul li a:hover {
   background-color: #555;
 }
+nav ul li a {
+  cursor: pointer;
+}
