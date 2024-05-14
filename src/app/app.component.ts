@@ -12,11 +12,4 @@ import { MenuComponent } from "./menu/menu.component";
 
 export class AppComponent {
   title = 'JMM';
-  numero = 1;
-  decrementar(){
-    this.numero--;
-  }
-  aumentar(){
-    this.numero++;
-  }
 }

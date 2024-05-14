@@ -1,0 +1,24 @@
+
+.container {
+    width: 80%;
+    margin: 50px auto;
+}
+
+.quote {
+    background-color:beige;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.quote p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+.author {
+    font-size: 16px;
+    text-align: right;
+    margin-top: 10px;
+}

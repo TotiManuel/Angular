@@ -25,7 +25,10 @@ export class MenuComponent {
     this.router.navigate(['/Blog']);
   }
   navigateToContacto() {
-    this.router.navigate(['/Contacto']);
+    this.router.navigate(["/Contacto"]);
+  }
+  navigateToInicio(){
+    this.router.navigate(["/Inicio"])
   }
 }
 

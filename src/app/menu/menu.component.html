@@ -1,24 +1,11 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Menú Interactivo</title>
-  <link rel="stylesheet" href="menu.component.css">
-</head>
-<body>
-  <nav>
-    <ul>
-      <li><img src="../../favicon.ico"></li>
-      <li><a href="../../index.html">{{Pagina.Inicio}}</a></li>
-      <li><a (click)="navigateToProyectos()">{{Pagina.Proyectos}}</a></li>
-      <li><a (click)="navigateToBlog()">{{Pagina.Blog}}</a></li>
-      <li><a (click)="navigateToContacto()">{{Pagina.Contacto}}</a></li>
-      <li>{{Pagina.Nombre}}</li>
-    </ul>
-  </nav>
 
-  <script src="menu.component.ts"></script>
-</body>
-</html>
-
+<nav>
+  <ul>
+    <li><a (click)="navigateToInicio()"><img src="../../assets/images/JM.ico"  width="80px"></a></li>
+    <li><a (click)="navigateToInicio()">{{Pagina.Inicio}}</a></li>
+    <li><a (click)="navigateToProyectos()">{{Pagina.Proyectos}}</a></li>
+    <li><a (click)="navigateToBlog()">{{Pagina.Blog}}</a></li>
+    <li><a (click)="navigateToContacto()">{{Pagina.Contacto}}</a></li>
+    <li>{{Pagina.Nombre}}</li>
+  </ul>
+</nav>
