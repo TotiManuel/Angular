@@ -14,15 +14,20 @@ export class MenuComponent {
     Inicio: "Inicio",
     Proyectos: "Proyectos",
     Contacto: "Contacto",
-    Blog: "Blog"
+    Capacitaciones: "Capacitaciones",
+    Experiencia: "Experiencia"
   };
+
   constructor(private router: Router) {}
 
   navigateToProyectos() {
     this.router.navigate(['/Proyectos']);
   }
-  navigateToBlog() {
-    this.router.navigate(['/Blog']);
+  navigateToExperiencia() {
+    this.router.navigate(['/Experiencia']);
+  }
+  navigateToCapacitaciones() {
+    this.router.navigate(['/Capacitaciones']);
   }
   navigateToContacto() {
     this.router.navigate(["/Contacto"]);
